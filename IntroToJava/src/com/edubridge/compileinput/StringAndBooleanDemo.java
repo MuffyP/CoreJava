@@ -8,7 +8,10 @@ public class StringAndBooleanDemo {
 		Scanner s = new Scanner(System.in);
 		boolean x = s.nextBoolean();
 		String y = s.next();
+		s.next();
 		String a = s.nextLine();
+		
+		//s.next();
 		char z = s.next().charAt(0);
 
 		System.out.println("value of boolean is "+ x);
