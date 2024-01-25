@@ -29,6 +29,7 @@ public class FindLargestValueInArray {
 		}
 		System.out.println();
 		System.out.println("Largest Value is "+val);
+		s.close();
 	}
 
 }

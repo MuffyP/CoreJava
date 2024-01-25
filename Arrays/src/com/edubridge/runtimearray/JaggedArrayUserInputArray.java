@@ -25,6 +25,7 @@ public class JaggedArrayUserInputArray {
 			}
 			System.out.println();
 		}
+		s.close();
 	}
 
 }
