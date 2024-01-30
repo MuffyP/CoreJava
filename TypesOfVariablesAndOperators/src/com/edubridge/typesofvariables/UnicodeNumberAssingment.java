@@ -6,7 +6,7 @@ public class UnicodeNumberAssingment {
 
 	public static void main(String[] args) {
 		 	Scanner s = new Scanner(System.in);
-	        char x = s.next().chars()
+	        char x = s.next().chars();
 	  		byte[] charset = str1.getBytes("UTF-8");  
 	        Float y = s.nextFloat();
 	        Float z = s.nextFloat();
