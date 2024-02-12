@@ -1,0 +1,7 @@
+package com.edubridge.interfacedemo;
+//parent 2
+interface                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Hinata {
+	/*int noOfChildren=3;
+	String position="Feamale";*/
+	void powerone(int noOfChildren, String clan);
+}
