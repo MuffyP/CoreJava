@@ -1,6 +1,7 @@
 package com.edubridge.list;
 // program  to demonstrate linked list
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -32,10 +33,15 @@ public class LinkedListDemo {
 			System.out.print(itr+" ");
 			
 		}
-		Iterator<Integer> itr1 = obj1.listIterator();
+		/*Iterator<Integer> itr1 = obj1.listIterator();
 		while(itr1.hasNext()) {
 			System.out.print(itr1+" ");
+		}*/
+		Collections.reverse(obj);
+		for(Object itr:obj) { //enhanced for loop is used(learn loops)
+			System.out.print(itr+" ");
+			
 		}
-		
+		//Collections.sort(); check how to use
 		}
 }
